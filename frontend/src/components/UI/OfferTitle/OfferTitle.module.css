@@ -1,0 +1,48 @@
+.root {
+    position: relative;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background {
+    position: absolute;
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    width: 300%;
+    height: 80px;
+
+    background: #0066ff52;
+
+    scale: 1.05;
+
+    rotate: -6.4deg;
+}
+
+
+.title {
+    display: flex;
+    align-items: center;
+
+    font-size: 4em;
+
+    font-family: 'Montserrat', sans-serif;
+
+    padding-left: 80px;
+
+    color: #0F125F;
+    background: #ff00004f;
+    width: 100%;
+    height: 100px;
+
+    z-index: 3;
+}
+

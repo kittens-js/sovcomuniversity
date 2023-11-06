@@ -1,0 +1,59 @@
+.root {
+    height: 50%;
+
+    background: linear-gradient(0deg, #0066FF9C, #FF000033);
+
+    padding: 60px 260px;
+}
+
+.feedback_side {
+    width: 35%;
+}
+
+.title {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 3em;
+
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+
+    font-size: 1.6em;
+}
+
+.mailinput {
+    padding: 10px 5px;
+    width: 100%;
+
+    border-radius: 20px;
+    border: 0;
+
+    height: 35%;
+}
+
+input::placeholder {
+    color: #A4A4A469;
+    font-size: 1.2em;
+
+    font-family: 'Rubik', sans-serif;
+}
+
+.subbutton {
+    background: #0066FF;
+    border: 0;
+
+    letter-spacing: 0.2px;
+    padding: 10px 40px;
+    border-radius: 30px;
+
+    font-size: 1.2em;
+
+    font-family: 'Rubik', sans-serif;
+
+    color: white;
+}

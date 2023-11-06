@@ -1,0 +1,21 @@
+.footer {
+    background: #0F125F;
+    height: 50%;
+
+    padding: 20px 80px;
+
+}
+
+.logo, .contacts {
+    margin-bottom: 20px;
+}
+
+.text {
+    color: rgba(255, 255, 255, 0.419);
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.tg {
+    margin-left: 15px;
+}

@@ -1,0 +1,14 @@
+.button {
+    background: #0066FF;
+    border: 0;
+    
+    letter-spacing: 0.2px;
+    padding: 20px 56px;
+    border-radius: 30px;
+    
+    font-size: 1.2em;
+    
+    font-family: 'Rubik', sans-serif;
+    
+    color: white;
+    }

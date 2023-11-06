@@ -1,0 +1,10 @@
+button {
+
+    cursor: pointer;
+
+}
+
+button:hover {
+    text-shadow: 0 0 2vh #ff0000;
+    transition: .3s;
+}

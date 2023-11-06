@@ -1,0 +1,40 @@
+.root {
+    height: 70vh;
+    padding-top: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+
+    padding: 0 80px;
+
+    margin-bottom: 80px;
+}
+
+.item {
+    width: 20%;
+}
+
+.title {
+    color: #0066FF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+
+    margin-bottom: 10px;
+}
+
+.description {
+    font-family: 'Rubik', sans-serif;
+
+    font-size: 1.8em;
+
+    margin-bottom: 10px;
+    	white-space: break-spaces;
+}

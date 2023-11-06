@@ -1,0 +1,96 @@
+.root {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+
+.background {
+    background:  linear-gradient(180deg, #3A67DD, #FEA8A8);
+    position: absolute; top: 0; left: 0;
+    height: 100%; width: 50%;
+    z-index: -2;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+
+    padding: 60px 120px;
+
+
+    display: flex;
+    justify-content: center;
+}
+
+.text, .picture {
+    width: 50%;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+
+    color: white;
+
+    width: 50%;
+    font-size: 3.5vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    padding-left: 100px;
+}
+
+.picture {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_picture {
+    width: 65%;
+}
+
+/* 
+.content {
+    display: flex;
+} */
+
+/* .main_text {
+    align-self: center;
+
+    color: white;
+
+    padding: 15vh 22vh;
+
+    display: flex;
+    justify-content: space-between;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.8em;
+    width: 90%;
+
+    color: white;
+
+    width: 60%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.main_picture {
+    position: absolute;
+
+    top: 36%;
+    transform: translate(-35%);
+
+    left: 63%;
+
+    scale: 1.6;
+} */

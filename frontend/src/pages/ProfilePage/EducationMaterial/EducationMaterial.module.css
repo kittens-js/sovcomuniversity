@@ -1,0 +1,280 @@
+.root {
+    width: 100%;
+    height: 100%;
+
+    padding: 20px 30px;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+
+    background: #F1F1F1;
+
+    padding: 40px 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.title, .file {
+    font-family: 'Rubik', sans-serif;
+    color: #0F125F;
+    margin-bottom: 20px;
+}
+
+.file {
+    padding: 15px;
+    border-radius: 6px;
+    background: #D9D9D9;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+.task_bar {
+    /* width: ; */
+    /* height: 65vh; */
+
+    height: 600px;
+
+    display: none;
+}
+
+.active {
+    display: block;
+    height: 600px;
+}
+
+.task_header {
+    width: 100%;
+    display: flex;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+.teacher_avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 80%;
+    width: 6%;
+    max-height: 40%;
+    background-color: #D9D9D9;
+}
+
+.user_fio {
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+}
+
+.task_name {
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    width: 43.3vw;
+    height: 6vh;
+    background-color: rgba(243, 243, 243, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.task_name_h3 {
+    margin-left: 2%;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+.task {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 2%;
+    background-color: rgba(0, 102, 255, 0.16);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    height: 52vh;
+    width: 48vw;
+    margin-bottom: 3%;
+    align-items: flex-end
+}
+
+.message {
+    display: flex;
+    background-color: rgba(255, 255, 255, 1);
+    width: 44vw;
+    height: 5vh;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.message_input {
+    width: 35vw;
+    height: 5vh;
+    border-radius: 30px;
+    border: 0px;
+    padding-left: 4%;
+    font-family: 'Rubik', sans-serif;
+}
+
+.message_input:focus {
+    outline: none
+}
+
+
+.message_btn {
+    border-radius: 30px;
+    font-family: 'Rubik', sans-serif;
+    border: 0px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 102, 255, 0.61);
+    width: 6vw;
+    height: 3.8vh;
+}
+
+.message_btn:hover {
+    background-color: rgba(5, 85, 206, 0.61);
+}
+
+.message_btn:active {
+    background-color: rgba(4, 69, 165, 0.61);
+}
+
+.create_button {
+    background: #0066FF;
+    border: 0;
+
+    margin-top: 50px;
+    margin-left: 30px;
+    
+    width: 40%;
+    letter-spacing: 0.2px;
+    padding: 12px 40px;
+    border-radius: 30px;
+    
+    font-size: 2em;
+    
+    font-family: 'Rubik', sans-serif;
+    
+    color: white;
+}
+
+.inner_content {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    background-color: #F4F4F4;
+    box-shadow: 5px 5px 2px 0px #b2afaf;
+    height: 85%;
+    width: 60%;
+    margin-top: 30px
+}
+
+.whole_task {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 55px;
+    box-shadow: 0px 3px 2px 0px #b2afaf;
+    border-radius: 10px;
+    width: 80%;
+    height: 24%;
+    background-color: white;
+}
+
+.first_task_part {
+    padding-bottom: 6px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #D9D9D9;
+    align-items: center;
+}
+.second_task_part {  
+    display: flex;
+    margin-bottom: 50px;
+}
+.roundabout {
+    background-color: #0066FF59;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-left: 20px;
+    margin-top: 12px
+}
+.p_div {
+    display: flex;
+    flex-direction: column
+}
+.first_task_name {
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+.first_task_date {
+    margin-left: 20px;
+    color: #A4A4A469;
+    font-size: 0.9em;
+}
+
+.go_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 2px;
+    width: 0%;
+    height: 0%;
+    padding-top: 10px;
+    padding-left: 50px;
+    position: relative;
+    left: 80%;
+    transform: scale(1.5);
+    margin-top: 10px;
+    background-color: white;
+    border: 0;
+    color: #D9D9D9;
+}
+
+.groups_h1 {
+    font-size: 2em;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.p_group_div {
+    font-size: 1.15em;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.group_div {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    box-shadow: 0px 3px 2px 0px #b2afaf;
+    border-radius: 10px;
+    width: 80%;
+    height: 13%;
+    background-color: white;
+}
+
+.go_button_group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 0%;
+    height: 0%;
+    padding-left: 50px;
+    position: relative;
+    left: 80%;
+    transform: scale(1.5);
+    background-color: white;
+    border: 0;
+    color: #D9D9D9;
+}

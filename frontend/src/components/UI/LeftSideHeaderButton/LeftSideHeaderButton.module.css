@@ -1,0 +1,20 @@
+.arrow_icon svg {
+    display: flex;
+    align-self: center;
+}
+
+.arrow_icon {
+    background: inherit;
+    color: white;
+
+    border: white 2px solid;
+    border-radius: 100px;
+    padding: 60px;
+
+    align-self: center;
+}
+
+
+.left_icon {
+    margin-left: -65px;
+}

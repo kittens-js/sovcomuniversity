@@ -1,0 +1,76 @@
+.root {
+    background: linear-gradient(180deg, #0066FF, #FF000057);
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.login_panel {
+    position: fixed;
+
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: white;
+
+    padding: 60px 130px;
+    border-radius: 6px;
+}
+
+.login_pannel_inner {
+    height: 100%;
+}
+
+.header_login_panel {
+    display: flex;
+    justify-content: center;
+}
+
+.authorization_title {
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 4em;
+    color: #0F125F;
+}
+
+.main_login_panel {
+    margin: 5% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input, .select {
+    background: #D9D9D94D;
+    border: 0;
+    border-radius: 16px;
+    padding: 10px 30px;
+
+    margin: 1% 0;
+
+    width: 80%;
+
+    outline: none;
+}
+
+.input::placeholder {
+    color: #A4A4A469;
+}
+
+.select, .option, .input {
+    font-family: 'Rubik', sans-serif;
+    color: #0F125F;
+}
+
+
+.footer_login_panel {
+    display: flex;
+    justify-content: center;
+}
+
+.error {
+    color: red;
+    font-family: 'Rubik', sans-serif;
+}

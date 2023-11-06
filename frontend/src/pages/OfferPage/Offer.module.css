@@ -1,0 +1,45 @@
+.collective {
+    padding: 20px 160px;
+
+    margin: 300px 0;
+}
+
+.title_collective {
+    color: #0066FF;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6.2em;
+    margin-bottom: 40px;
+}
+
+.first_section_collective {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.text_collective {
+    font-family: 'Rubik', sans-serif;
+    font-size: 3em;
+
+    width: 45%;
+}
+
+.image_collective {
+    width: 50%;
+}
+
+.end {
+    padding: 0px 160px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 3em;
+
+    margin-bottom: 100px;
+}
+
+.first_collective {
+    margin-top: 0 !important;
+}
+
+.last_collective {
+    margin-bottom: 0;
+}

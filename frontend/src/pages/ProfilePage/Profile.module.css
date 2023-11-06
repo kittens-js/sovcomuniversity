@@ -1,0 +1,111 @@
+.root {
+    background: linear-gradient(0deg, #0066FF59, #8000FF40);
+}
+
+.mainpage {
+    width: 100%;
+    height: 100%;
+}
+
+.mainpage_content {
+    position: absolute;
+    top: 65%; left: 50%;
+    transform: translate(-50%, -65%);
+
+    width: 65%;
+
+    background: white;
+}
+
+.header, .menu {
+    background: white;
+}
+
+.header {
+    padding: 60px 20px 20px 20px;
+
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(to right, #0066FF9C, #8000FF99);
+    border-image-slice: 1;
+
+}
+
+.menu {
+    display: flex;
+
+    height: 700px;
+    width: 100%;
+}
+
+.fcs {
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #0F125F;
+
+    font-size: 3em;
+}
+
+.other_data {
+    color: #0066FF9C;
+    font-family: 'Rubik', sans-serif;
+}
+
+.select_process_buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.left_bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background: linear-gradient(0deg, #8000FF26, #0066FF27);
+
+    min-width: 20%;
+    height: 100%;
+
+    padding: 15px 20px 15px 20px;
+}
+
+.select_button {
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    align-items: flex-start;
+
+    background: inherit;
+    border: 0;
+
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.4em;
+
+    color: #0F125F;
+
+    margin-bottom: 20px;
+}
+
+.active_button {
+    color: #8000FF99;
+}
+
+.logout {
+    display: flex;
+    justify-content: center;
+}
+
+.logout_button {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.4em;
+
+    background: inherit;
+    border: 0;
+
+    color: red;
+}
+
+.right_bar {
+    width: 100%;
+}
